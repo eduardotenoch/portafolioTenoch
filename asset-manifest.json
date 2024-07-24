@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/portafolioTenoch/static/css/main.5d8df00b.css",
-    "main.js": "/portafolioTenoch/static/js/main.d8a4d702.js",
+    "main.js": "/portafolioTenoch/static/js/main.1c57a2fe.js",
     "static/js/453.edf74f8e.chunk.js": "/portafolioTenoch/static/js/453.edf74f8e.chunk.js",
+    "static/media/logo.svg": "/portafolioTenoch/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portafolioTenoch/index.html",
     "main.5d8df00b.css.map": "/portafolioTenoch/static/css/main.5d8df00b.css.map",
-    "main.d8a4d702.js.map": "/portafolioTenoch/static/js/main.d8a4d702.js.map",
+    "main.1c57a2fe.js.map": "/portafolioTenoch/static/js/main.1c57a2fe.js.map",
     "453.edf74f8e.chunk.js.map": "/portafolioTenoch/static/js/453.edf74f8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8df00b.css",
-    "static/js/main.d8a4d702.js"
+    "static/js/main.1c57a2fe.js"
   ]
 }
