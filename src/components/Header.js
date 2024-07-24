@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.scss'
+import logo from '../images/logo.svg'
 
 export function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src="path/to/your/logo.svg" alt="Logo" />
+      <img src={logo} className="App-logo" alt="logo" />
       </div>
       <nav>
         <ul>
