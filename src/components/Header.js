@@ -10,9 +10,9 @@ export function Header() {
       </div>
       <nav>
         <ul>
-          <li><a href="#Sobremi">Sobre mi</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="/Sobremi">Sobre mi</a></li>
+          <li><a href="/proyectos">Proyectos</a></li>
+          <li><a href="/contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>

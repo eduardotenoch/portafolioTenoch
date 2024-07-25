@@ -1,0 +1,45 @@
+/* src/pages/Principal.scss */
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: url('../images/fondo.jpeg') no-repeat center center fixed; 
+  background-size: cover; /* O elige un color si prefieres */
+  color: #fff;
+  padding: 20px;
+}
+
+.principal h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.principal p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.principal button {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.principal button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.principal button:active {
+  transform: scale(0.95);
+}
