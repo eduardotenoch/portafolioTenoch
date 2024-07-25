@@ -7,7 +7,7 @@ export function Principal() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/sobremi'); // Redirige a la página de Sobre mí
+    navigate('/Menu'); // Redirige a la página de Sobre mí
   };
 
   return (

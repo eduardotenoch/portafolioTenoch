@@ -1,22 +1,26 @@
+/* src/components/Footer.scss */
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer .social-media {
-    margin-top: 10px;
-  }
-  
-  .footer .social-media a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  .footer .social-media a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #7297be;
+  padding: 10px; /* Reduce el padding */
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  font-size: 0.9rem; /* Reduce el tamaño de la fuente */
+}
+
+.social-media {
+  margin-top: 5px; /* Reduce el margen superior */
+}
+
+.social-media a {
+  margin: 0 8px; /* Reduce el margen entre los íconos */
+  color: #007bff; /* Color de los íconos */
+  font-size: 1rem; /* Tamaño de los íconos */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #0056b3; /* Color de los íconos en hover */
+}
