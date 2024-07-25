@@ -4,12 +4,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh; /* Asegura que el contenedor tenga al menos el tamaño de la pantalla */
   text-align: center;
   background: url('../images/fondo.jpeg') no-repeat center center fixed; 
-  background-size: cover; /* O elige un color si prefieres */
+  background-size: cover; /* O elige un color sólido si prefieres */
   color: #fff;
   padding: 20px;
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
 }
 
 .principal h1 {
