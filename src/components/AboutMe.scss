@@ -1,0 +1,58 @@
+.main-content {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+#about,
+#projects,
+#contact {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.about-section,
+.projects-section,
+.contact-section {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info,
+.education-skills,
+.hobbies {
+  margin-bottom: 20px;
+}
+
+section h1, section h2 {
+  color: #333;
+}
+
+section p {
+  color: #555;
+}
+
+/* Nueva clase para el título de bienvenida */
+.welcome-title {
+  font-family: 'Georgia', serif; /* Cambia la fuente a la que prefieras */
+  font-size: 2.5rem; /* Tamaño de fuente ajustado */
+  color: #0073e6; /* Color del texto */
+  margin-bottom: 20px; /* Ajusta el margen inferior */
+}

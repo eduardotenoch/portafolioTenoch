@@ -1,18 +1,18 @@
 import React from 'react';
 import './Header.scss'
-import logo from '../images/logo.svg'
+import naruto from '../images/naruto.jpg'
 
 export function Header() {
   return (
     <header className="header">
       <div className="logo">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={naruto} className="App-logo" alt="logo" />
       </div>
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#Sobre mi">Sobre mi</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>

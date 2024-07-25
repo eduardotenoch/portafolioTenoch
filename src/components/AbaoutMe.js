@@ -1,20 +1,21 @@
 import React from 'react';
-import './AbaoutMe.scss';
+import './AboutMe.scss';
+import { Sobremi } from '../Pages/Sobremi';
 
 export function AboutMe() {
   return (
     <main className="main-content">
-      <section id="about">
-        <h1>About Me</h1>
-        <p>Brief introduction about yourself.</p>
+      <section id="about" className="about-section">
+        <h1 className="welcome-title">Bienvenido a mi espacio</h1>
+        <Sobremi />
       </section>
-      <section id="projects">
-        <h1>Projects</h1>
-        <p>Showcase your projects here.</p>
+      <section id="projects" className="projects-section">
+        <h1>Proyectos</h1>
+        <p>Aquí puedes ver una muestra de mis proyectos.</p>
       </section>
-      <section id="contact">
-        <h1>Contact</h1>
-        <p>Provide your contact details or a contact form.</p>
+      <section id="contact" className="contact-section">
+        <h1>Contacto</h1>
+        <p>Puedes contactarme a través de los detalles proporcionados o mediante un formulario de contacto.</p>
       </section>
     </main>
   );

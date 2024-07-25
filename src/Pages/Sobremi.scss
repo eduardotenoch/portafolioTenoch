@@ -1,0 +1,59 @@
+.sobremi-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .personal-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #f0f0f0; /* Fondo diferenciado */
+    padding: 20px; /* Añadir padding para más separación */
+    border-radius: 10px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px; /* Cambiado a margin-left para que la imagen esté a la derecha */
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Añadir más separación entre el texto y la imagen */
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .education-skills,
+  .hobbies {
+    margin-bottom: 20px;
+  }
+  
+  .personal-info h2, 
+  .education-skills h2, 
+  .hobbies h2 {
+    color: #333;
+  }
+  
+  .personal-info p, 
+  .education-skills p, 
+  .hobbies p {
+    color: #555;
+  }
+  
