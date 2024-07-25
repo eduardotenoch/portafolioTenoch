@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portafolioTenoch/static/css/main.3a60276b.css",
-    "main.js": "/portafolioTenoch/static/js/main.f74446c2.js",
+    "main.css": "/portafolioTenoch/static/css/main.11d553e4.css",
+    "main.js": "/portafolioTenoch/static/js/main.390519a1.js",
     "static/js/453.edf74f8e.chunk.js": "/portafolioTenoch/static/js/453.edf74f8e.chunk.js",
     "static/media/Captura desde 2024-07-24 18-14-15.png": "/portafolioTenoch/static/media/Captura desde 2024-07-24 18-14-15.dca5be1695391c47299e.png",
     "static/media/fondo.jpeg": "/portafolioTenoch/static/media/fondo.06d846f8c1660f510351.jpeg",
     "static/media/naruto.jpg": "/portafolioTenoch/static/media/naruto.fd3ceaf20e7f7340cfb4.jpg",
     "index.html": "/portafolioTenoch/index.html",
-    "main.3a60276b.css.map": "/portafolioTenoch/static/css/main.3a60276b.css.map",
-    "main.f74446c2.js.map": "/portafolioTenoch/static/js/main.f74446c2.js.map",
+    "main.11d553e4.css.map": "/portafolioTenoch/static/css/main.11d553e4.css.map",
+    "main.390519a1.js.map": "/portafolioTenoch/static/js/main.390519a1.js.map",
     "453.edf74f8e.chunk.js.map": "/portafolioTenoch/static/js/453.edf74f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a60276b.css",
-    "static/js/main.f74446c2.js"
+    "static/css/main.11d553e4.css",
+    "static/js/main.390519a1.js"
   ]
 }
