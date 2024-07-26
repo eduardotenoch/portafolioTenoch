@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import foto from '../images/Captura desde 2024-07-24 18-14-15.png';
 import './Sobremi.scss';
-import cvFile from '../documents/CV_Eduardo_Tenoch_Zamora_Cruz.pdf'; // Asegúrate de que la ruta sea correcta
+import cvFile from '../docs/Registro de Proyecto de Investigación Eduardo Tenoch Zamora Cruz.odt'; // Asegúrate de que la ruta sea correcta
 
 export function Sobremi() {
   const [loaded, setLoaded] = useState(false);

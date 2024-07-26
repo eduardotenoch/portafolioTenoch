@@ -1,24 +1,46 @@
 .estudios-habilidades-container {
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+
+  &.loaded {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .education-skills {
-    margin-bottom: 20px;
-    background-color: #f9f9f9; /* Fondo diferenciado */
-    padding: 20px; /* Añadir padding para más separación */
-    border-radius: 10px;
-  }
-  
-  .education-skills h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .education-skills p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #555;
-  }
-  
+}
+
+.education-skills {
+  margin-bottom: 20px;
+  background-color: #f9f9f9; /* Fondo diferenciado */
+  padding: 20px; /* Añadir padding para más separación */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-skills h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.education-skills p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.skill-list li strong {
+  color: #333;
+}

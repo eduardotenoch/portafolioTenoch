@@ -1,33 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Header.scss';
-import naruto from '../images/naruto.jpg';
 
 export function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
 
-  const handleLogoClick = () => {
-    navigate('/menu'); // Redirige a la pantalla de Menu
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleNavigation = (path) => {
+    navigate(path);
+    setIsMenuOpen(false); // Cierra el menú al navegar
   };
 
   return (
     <header className="header">
-      <div className="logo">
-        <img 
-          src={naruto} 
-          className="App-logo" 
-          alt="logo" 
-          onClick={handleLogoClick} 
-          style={{ cursor: 'pointer' }} // Cambia el cursor para indicar que la imagen es clickeable
-        />
+      <div className="logo" onClick={handleMenuToggle} style={{ cursor: 'pointer' }}>
+        <FontAwesomeIcon icon={faBars} className="menu-icon" />
       </div>
-      <nav>
-        <ul>
-          <li><a href="/sobremi">Sobre mí</a></li>
-          <li><a href="/estudio-habilidades">Estudio y Habilidades</a></li>
-          <li><a href="/contacto">Contacto</a></li>
-        </ul>
-      </nav>
+      {isMenuOpen && (
+        <nav className="dropdown-menu">
+          <ul>
+            <li><a onClick={() => handleNavigation('/sobremi')}>Sobre mí</a></li>
+            <li><a onClick={() => handleNavigation('/EstudioHabilidades')}>Estudios y Habilidades</a></li>
+           <li><a onClick={() => handleNavigation('/hobbies')}>Hobbies</a></li>
+          </ul>
+        </nav>
+      )}
     </header>
   );
 }
