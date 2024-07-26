@@ -6,8 +6,8 @@
   padding: 20px;
   font-family: 'Arial', sans-serif;
   background: url('../images/fotoyo.avif') no-repeat center center/cover; /* Fondo de imagen */
-  height: calc(90vh - 90px); /* Ajuste para header y footer */
-  margin: 10px 0; /* Espacio para header y footer */
+  height: calc(100vh - 100px); /* Ajuste para header y footer */
+  margin: 50px 0; /* Espacio para header y footer */
   opacity: 0;
   transform: translateY(100%);
   transition: opacity 1s ease, transform 1s ease;
@@ -17,11 +17,85 @@
     transform: translateY(0);
   }
 }
+
+.name-title {
+  font-size: 5rem; /* Tamaño de fuente más grande */
+  color: #fff;
+  margin-bottom: 10px; /* Espacio inferior reducido */
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 4rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 3rem; /* Tamaño de fuente más pequeño en teléfonos */
+  }
+}
+
 .degree-title {
   font-size: 2.5rem; /* Tamaño de fuente más pequeño */
   color: #fff; /* Color blanco para que coincida con el resto del texto */
   margin-top: 10px; /* Espacio superior para separarlo del nombre */
-  text-align: center; /* Centrar el texto */
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 2rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño en teléfonos */
+  }
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(238, 255, 3, 0.9); /* Fondo completamente negro */
+  padding: 20px; /* Espaciado interno reducido */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Aumentar el ancho máximo */
+  text-align: center;
+  width: 100%; /* Asegúrate de que use el 100% del ancho disponible */
+
+  @media (max-width: 768px) {
+    padding: 15px; /* Reducir el padding en pantallas pequeñas */
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px; /* Reducir el padding en teléfonos */
+  }
+}
+
+.profile-photo {
+  width: 200px; /* Aumentar el tamaño de la foto */
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    width: 150px; /* Reducir tamaño en pantallas pequeñas */
+  }
+
+  @media (max-width: 480px) {
+    width: 100px; /* Reducir tamaño en teléfonos */
+  }
+}
+
+.text-content {
+  color: #fff; /* Color blanco para el texto */
+  font-size: 2rem; /* Tamaño de la fuente aumentado */
+  line-height: 1.8; /* Aumentar el interlineado */
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño en teléfonos */
+  }
 }
 
 .download-button {
@@ -34,40 +108,19 @@
   cursor: pointer; /* Cambia el cursor al pasar el mouse */
   text-decoration: none; /* Sin subrayado para el texto */
   transition: background-color 0.3s; /* Transición suave para el color de fondo */
+  margin-top: 20px; /* Espacio superior para separarlo del texto */
 
   &:hover {
     background-color: #0056b3; /* Color del botón al pasar el mouse */
   }
-}
 
-.name-title {
-  font-size: 5rem; /* Tamaño de fuente más grande */
-  color: #fff;
-  margin-bottom: 60px; /* Aumentar el margen inferior */
-  text-align: center;
-}
+  @media (max-width: 768px) {
+    font-size: 1rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    padding: 8px 16px; /* Ajustar el padding */
+  }
 
-.personal-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(238, 255, 3, 0.9); /* Fondo completamente negro */
-  padding: 30px; /* Aumentar el padding */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 800px; /* Aumentar el ancho máximo */
-  text-align: center;
-}
-
-.profile-photo {
-  width: 200px; /* Aumentar el tamaño de la foto */
-  height: auto;
-  border-radius: 50%;
-  margin-top: 20px;
-}
-
-.text-content {
-  color: #fff; /* Color blanco para el texto */
-  font-size: 2rem; /* Tamaño de la fuente aumentado */
-  line-height: 1.8; /* Aumentar el interlineado */
+  @media (max-width: 480px) {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño en teléfonos */
+    padding: 6px 12px; /* Ajustar el padding */
+  }
 }
