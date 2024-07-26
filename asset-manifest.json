@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolioTenoch/static/css/main.0063abea.css",
-    "main.js": "/portafolioTenoch/static/js/main.a43db0f5.js",
+    "main.css": "/portafolioTenoch/static/css/main.55a5df68.css",
+    "main.js": "/portafolioTenoch/static/js/main.0ab66108.js",
     "static/js/453.edf74f8e.chunk.js": "/portafolioTenoch/static/js/453.edf74f8e.chunk.js",
     "static/media/Captura desde 2024-07-24 18-14-15.png": "/portafolioTenoch/static/media/Captura desde 2024-07-24 18-14-15.dca5be1695391c47299e.png",
     "static/media/fondo.jpeg": "/portafolioTenoch/static/media/fondo.06d846f8c1660f510351.jpeg",
@@ -9,18 +9,21 @@
     "static/media/fa-brands-400.ttf": "/portafolioTenoch/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/portafolioTenoch/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/naruto.jpg": "/portafolioTenoch/static/media/naruto.fd3ceaf20e7f7340cfb4.jpg",
+    "static/media/menu.jpg": "/portafolioTenoch/static/media/menu.e702fccef40746a70259.jpg",
     "static/media/fa-brands-400.woff2": "/portafolioTenoch/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/fa-regular-400.ttf": "/portafolioTenoch/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/Registro de Proyecto de Investigación Eduardo Tenoch Zamora Cruz.odt": "/portafolioTenoch/static/media/Registro de Proyecto de Investigación Eduardo Tenoch Zamora Cruz.9e990af1bd5872b18aa0.odt",
     "static/media/fa-regular-400.woff2": "/portafolioTenoch/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/portafolioTenoch/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/portafolioTenoch/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/fotoyo.avif": "/portafolioTenoch/static/media/fotoyo.f912390c424e894b591d.avif",
     "index.html": "/portafolioTenoch/index.html",
-    "main.0063abea.css.map": "/portafolioTenoch/static/css/main.0063abea.css.map",
-    "main.a43db0f5.js.map": "/portafolioTenoch/static/js/main.a43db0f5.js.map",
+    "main.55a5df68.css.map": "/portafolioTenoch/static/css/main.55a5df68.css.map",
+    "main.0ab66108.js.map": "/portafolioTenoch/static/js/main.0ab66108.js.map",
     "453.edf74f8e.chunk.js.map": "/portafolioTenoch/static/js/453.edf74f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0063abea.css",
-    "static/js/main.a43db0f5.js"
+    "static/css/main.55a5df68.css",
+    "static/js/main.0ab66108.js"
   ]
 }
