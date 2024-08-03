@@ -28,6 +28,7 @@ export function Header() {
             <li><a onClick={() => handleNavigation('/sobremi')}>Sobre mí</a></li>
             <li><a onClick={() => handleNavigation('/EstudioHabilidades')}>Estudios y Habilidades</a></li>
            <li><a onClick={() => handleNavigation('/hobbies')}>Hobbies</a></li>
+           <li><a onClick={() => handleNavigation('/hobbies')}>Exprericia y Proyectos</a></li>
           </ul>
         </nav>
       )}
